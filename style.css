@@ -5,7 +5,12 @@
  /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
- 
+
+html {
+  margin: 0;
+  padding: 0;
+} 
+
 body { 
   font-family: "Montserrat", sans-serif;
   color: #212529;
@@ -195,7 +200,7 @@ section {
 
 .maps  #map {
   width: 100%;
-  height: 380000vh; 
+  height: 38vh; 
 
 }
 .maps  #data, #allData {
@@ -229,19 +234,13 @@ section {
 }
 
 
-
-
-
-
-
-
 /*--------------------------------------------------------------
-# Responsive
+# Telefon
 --------------------------------------------------------------*/
 @media (min-width: 1400px) {
  .home {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   background-color: #E6007E;
   background-position: center;
 
@@ -382,9 +381,24 @@ section {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Slider
 --------------------------------------------------------------*/
+
+
+
 .csslider {
   -moz-perspective: 1300px;
   -ms-perspective: 1300px;
